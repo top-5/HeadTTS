@@ -2,3 +2,7 @@ node_modules/
 tools
 tmp
 .DS_Store
+# Downloaded voice model files (large binaries, not part of source)
+voices/*.bin
+!voices/af_bella.bin
+!voices/am_fenrir.bin
